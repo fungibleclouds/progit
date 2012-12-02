@@ -17,6 +17,24 @@ On Fedora you can run something like this::
     $ gem install rdiscount
     $ makeebooks en  # will produce a mobi
 
+On mac you need to install
+
+    $ http://www.tug.org/mactex/downloading.html 
+	$ http://calibre-ebook.com/download
+	$ http://www.haskell.org/platform/
+	$ cabal update
+    $ cabal install pandoc
+
+Add these to the path
+
+    export PATH=/usr/texbin:$PATH
+    export PATH=$HOME/Library/Haskell/bin:$PATH
+    export PATH=/Applications/calibre.app/Contents/MacOS:$PATH	
+
+edit ./makepdf for unnecessary languages	
+
+	exclude=('figures' 'figures-dia' 'figures-source' 'latex' 'makepdfs' 'pdf' 'README' 'Gemfile' 'README.md' 'Rakefile' 'ar' 'az' 'be' 'ca' 'couchapp' 'cs' 'de' 'ebooks' 'eo' 'epub' 'es' 'es-mx' 'es-ni' 'fi' 'fr' 'hu' 'id' 'it' 'ja' 'ko' 'makeebooks' 'mk' 'nl' 'no-nb' 'pl' 'progit.en.epub' 'progit.en.html' 'progit.en.mobi' 'pt-br' 'ro' 'ru' 'sr' 'summary.rb' 'th' 'tr' 'zh' 'zh-tw')
+	
 # Errata
 
 If you see anything that is technically wrong or otherwise in need of
