@@ -3,7 +3,7 @@
 baseDir=`dirname $0`
 outputDir=${baseDir}/pdf
 
-exclude=('figures' 'figures-dia' 'figures-source' 'latex' 'makepdfs' 'pdf' 'README')
+exclude=('figures' 'figures-dia' 'figures-source' 'latex' 'makepdfs' 'pdf' 'README' 'Gemfile' 'README.md' 'Rakefile' 'ar' 'az' 'be' 'ca' 'couchapp' 'cs' 'de' 'ebooks' 'eo' 'epub' 'es' 'es-mx' 'es-ni' 'fi' 'fr' 'hu' 'id' 'it' 'ja' 'ko' 'makeebooks' 'mk' 'nl' 'no-nb' 'pl' 'progit.en.epub' 'progit.en.html' 'progit.en.mobi' 'pt-br' 'ro' 'ru' 'sr' 'summary.rb' 'th' 'tr' 'zh' 'zh-tw')
 dirContent=`ls $baseDir`
 argString=""
 
