@@ -97,16 +97,16 @@ Neden böyle olması gerektiğine yaından bakalım.
 
 Gelin, basit bir örnekle, gerçek hayatta kullanacağınız bir dallanma ve birleştirme işleyişinin üstünden geçelim. Şu adımları izleyeceksiniz:
 
-1.	Bir web sitesi üzerine çalışıyor olun.
-2.	Üzerinde çalıştığınız yeni bir iş parçası için bir dal yaratın.
-3.	Çalışmalarınızı bu dalda gerçekleştirin.
+1. Bir web sitesi üzerine çalışıyor olun.
+2. Üzerinde çalıştığınız yeni bir iş parçası için bir dal yaratın.
+3. Çalışmalarınızı bu dalda gerçekleştirin.
 
 Bu noktada, sizden kritik önemde başka sorun üzerinde çalışıp hızlıca bir yama hazırlamanız istensin. Bu durumda şunları yapacaksınız:
 
-1.	Ana dalınıza geri dönün.
-2.	Yamayı eklemek için yeni bir dal oluşturun.
-3.	Testleri tamamlandıktan sonra yama dalını ana dalla birleştirip yayına verin.
-4.	Çalışmakta olduğunuz iş parçası dalına geri dönüp çalışmaya devam edin.
+1. Ana dalınıza geri dönün.
+2. Yamayı eklemek için yeni bir dal oluşturun.
+3. Testleri tamamlandıktan sonra yama dalını ana dalla birleştirip yayına verin.
+4. Çalışmakta olduğunuz iş parçası dalına geri dönüp çalışmaya devam edin.
 
 ### Dallanmanın Temelleri ###
 
@@ -234,7 +234,7 @@ Burada Git otomatik olarak yeni bir birleştirme kaydı oluşturmadı. Sizin uyu
 	[master*]$ git status
 	index.html: needs merge
 	# On branch master
-	# Changed but not updated:
+	# Changes not staged for commit:
 	#   (use "git add <file>..." to update what will be committed)
 	#   (use "git checkout -- <file>..." to discard changes in working directory)
 	#
